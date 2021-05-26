@@ -12,6 +12,13 @@
 <a href=archivos.jsp>Volver a la pagina anterior</a><br>
 <%ClsArchivos Imagen = new ClsArchivos();
   String nombreimg = Imagen.seleccionararchivos(); %>
-	<br><img alt="" src="Files/<%=nombreimg%>" width=200 height=150>
+  <table class="default">
+  <tr>
+    <td><br><img alt="" src="Files/<%=nombreimg%>" width=200 height=150></td>
+    <td><br><img alt="" src="Files/<%=nombreimg%>" width=200 height=150></td>
+    <td><br><img alt="" src="Files/<%=nombreimg%>" width=200 height=150></td>
+  </tr>
+  </table>
+	
 </body>
 </html>
